@@ -7,6 +7,7 @@ class Solution:
         """
         dic={}
         str=str.split(" ")
+        if len(pattern)!=len(str):return False
         for c,s in zip(pattern,str):
             if c in dic:
                 if s !=dic[c]:
@@ -16,10 +17,11 @@ class Solution:
                     return False
                 else:dic[c]=s
         return True
+        
 if __name__ == "__main__":
     so = Solution()
-    pattern = "abba"
-    str="dog dog dog dog"
+    pattern = "aaa"
+    str="aa aa aa aa"
     str2= "dog cat cat dog"
     print(so.wordPattern(pattern,str))
 
