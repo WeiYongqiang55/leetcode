@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2019-11-24 18:22:39
-@LastEditTime: 2019-11-24 19:15:04
+@LastEditTime: 2019-11-24 18:49:31
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: \leetcode\1.两数之和.py
