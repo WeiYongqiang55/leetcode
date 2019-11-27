@@ -1,10 +1,10 @@
 '''
 @Author: your name
-@Date: 2019-11-24 19:13:30
-@LastEditTime: 2019-11-27 23:18:22
+@Date: 2019-11-27 23:23:12
+@LastEditTime: 2019-11-27 23:23:54
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
-@FilePath: \leetcode\190.py
+@FilePath: \leetcode\191.位-1-的个数.py
 '''
 class Solution:
     # @param n, an integer
@@ -26,10 +26,3 @@ class Solution:
         str='{0:032b}'.format(n)
         num=str.count('1')
         return num
-        
-
-if __name__ =="__main__":
-    so = Solution()
-    result=so.reverseBits(43261596)
-    # result = so.hammingWeight(11)
-    print(result)
