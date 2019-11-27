@@ -1,7 +1,7 @@
 '''
-@Author: your name
+@Author: weiyq
 @Date: 2019-11-27 10:25:23
-@LastEditTime: 2019-11-27 10:35:44
+@LastEditTime: 2019-11-27 21:14:21
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: \leetcode\20.有效的括号.py
