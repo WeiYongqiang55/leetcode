@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2019-12-04 22:06:29
-@LastEditTime: 2019-12-04 22:33:14
+@LastEditTime: 2019-12-04 22:41:43
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: \leetcode\56.合并区间.py
@@ -18,6 +18,7 @@ class Solution:
         #先排序
         if len(intervals)<2:
             return intervals
+        # 对二维数组，根据第一个值进行排序
         intervals.sort(key = lambda x:x[0])
         
         res = [intervals[0]]
