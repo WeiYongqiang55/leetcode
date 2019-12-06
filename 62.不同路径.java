@@ -3,7 +3,7 @@ import sun.security.x509.UniqueIdentity;
 /*
  * @Author: your name
  * @Date: 2019-12-05 09:41:33
- * @LastEditTime: 2019-12-05 10:30:43
+ * @LastEditTime: 2019-12-05 18:22:50
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \leetcode\62.不同路径.java
@@ -43,8 +43,8 @@ class Solution {
     public void print(String s){
         System.out.println(s);
     }
-    public static void main(String[] args) {
-        System.out.println(uniquePaths(7,3));
-    }
+    // public static void main(String[] args) {
+    //     System.out.println(uniquePaths(7,3));
+    // }
 }
 // @lc code=end
