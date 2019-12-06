@@ -18,8 +18,11 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public List<List<Integer>> combine(int n, int k) {
-        
-    }
+//    public List<List<Integer>> combine(int n, int k) {
+//
+//    }
+// public static void main(String[] args) {
+//     System.out.println("123");
+// }
 }
 //leetcode submit region end(Prohibit modification and deletion)

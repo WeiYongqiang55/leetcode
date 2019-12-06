@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2019-12-05 18:41:02
+ * @LastEditTime: 2019-12-05 21:53:49
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \leetcode\[232]用栈实现队列.java
+ */
 //使用栈实现队列的下列操作： 
 //
 // 

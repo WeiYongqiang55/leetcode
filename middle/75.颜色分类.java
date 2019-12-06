@@ -3,7 +3,7 @@ import java.util.Arrays;
 /*
  * @Author: your name
  * @Date: 2019-12-05 10:43:59
- * @LastEditTime: 2019-12-05 18:22:43
+ * @LastEditTime: 2019-12-05 21:56:53
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \leetcode\75.颜色分类.java
@@ -77,12 +77,12 @@ class Solution {
             }
         } 
     }
-     public static void main(String[] args) {
-         int[] nums={2,0,1}; //初始化
-         sortColors(nums);
-         System.out.println(Arrays.toString(nums));
+    // public static void main(String[] args) {
+    //     int[] nums={2,0,1}; //初始化
+    //     sortColors(nums);
+    //     System.out.println(Arrays.toString(nums));
 
-     }
+    // }
 }
 // @lc code=end
 

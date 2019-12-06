@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2019-12-05 18:41:22
+ * @LastEditTime: 2019-12-05 21:53:31
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \leetcode\[75]颜色分类.java
+ */
 //给定一个包含红色、白色和蓝色，一共 n 个元素的数组，原地对它们进行排序，使得相同颜色的元素相邻，并按照红色、白色、蓝色顺序排列。 
 //
 // 此题中，我们使用整数 0、 1 和 2 分别表示红色、白色和蓝色。 
@@ -24,7 +32,12 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public void sortColors(int[] nums) {
+
         
     }
+
+    // public static void main(String[] args) {
+    //     System.out.print("asda")
+    // }
 }
 //leetcode submit region end(Prohibit modification and deletion)

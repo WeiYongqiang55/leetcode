@@ -21,7 +21,11 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int singleNumber(int[] nums) {
-        
+        return 1;
     }
+
+    // public static void main(String[] args) {
+    //     System.out.println("123");
+    // }
 }
 //leetcode submit region end(Prohibit modification and deletion)
