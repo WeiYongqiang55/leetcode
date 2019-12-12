@@ -8,6 +8,13 @@
             "type": "java",
             "name": "CodeLens (Launch) - Solution",
             "request": "launch",
+            "mainClass": "java.Solution",
+            "projectName": "leetcode_82b2974e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution",
+            "request": "launch",
             "mainClass": "middle.Solution",
             "projectName": "leetcode_82b2974e"
         },
