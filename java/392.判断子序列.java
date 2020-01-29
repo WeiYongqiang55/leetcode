@@ -1,4 +1,12 @@
 /*
+ * @Author: your name
+ * @Date: 2020-01-27 15:26:25
+ * @LastEditTime : 2020-01-27 15:57:41
+ * @LastEditors  : Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /leetcode/392.判断子序列.java
+ */
+/*
  * @lc app=leetcode.cn id=392 lang=java
  *
  * [392] 判断子序列
@@ -43,9 +51,34 @@
 
 // @lc code=start
 class Solution {
-    public boolean isSubsequence(String s, String t) {
-        
+    public static boolean isSubsequence(String s, String t) {
+
+        // int sp=0,tp=0;
+        int slen = s.length(), tlen = t.length();
+        if (slen == 0) {
+            return true;
+        }
+        int count = 0;
+        for (int sp = 0, tp = 0; sp < slen && tp < tlen;) {
+            if (s.charAt(sp) == t.charAt(tp)) {
+                sp++;
+                tp++;
+                count++;
+                if (count == s.length()) {
+                    return true;
+                }
+            } else {
+                tp++;
+            }
+        }
+
+        return false;
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println(isSubsequence("abc", "ahbgd"));
+
     }
 }
 // @lc code=end
-
