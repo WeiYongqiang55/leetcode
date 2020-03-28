@@ -1,3 +1,15 @@
+
+/*
+ * @Author: your name
+ * @Date: 2020-01-27 15:57:50
+ * @LastEditTime : 2020-01-29 17:27:40
+ * @LastEditors  : Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /leetcode/401.二进制手表.java
+ */
+import java.util.ArrayList;
+import java.util.List;
+
 /*
  * @lc app=leetcode.cn id=401 lang=java
  *
@@ -45,8 +57,25 @@
 // @lc code=start
 class Solution {
     public List<String> readBinaryWatch(int num) {
-        
+
+        List<String> result = new ArrayList<>();
+        // 一共10个灯，前4个是小时转成的分钟数，后6个是分钟，变成从10个数中挑出N个数的问题
+        // int[] minites = new int[]{60,120,240,480,1,2,34,8,16,32};
+        // 还要注意分钟数最大是15，实际只有12，对取出来的数要进行判断，分钟数也是
+
+        // 解法一：穷举
+        for (int h = 0; h < 12; h++) {
+            for (int m = 0; m < 60; m++) {
+                if (Integer.bitCount(h) + Integer.bitCount(m) == num) {
+                    result.add(String.format("%d:%02d", h, m));
+                }
+            }
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("123");
     }
 }
 // @lc code=end
-
