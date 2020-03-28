@@ -1,2 +1,2 @@
 # leetcode
-leetcode by python
+leetcode by java
