@@ -48,6 +48,8 @@
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
+ * 
+ * 后序遍历 
  */
 class Solution {
     TreeNode pre =null;
