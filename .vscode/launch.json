@@ -8,6 +8,34 @@
             "type": "java",
             "name": "CodeLens (Launch) - Main",
             "request": "launch",
+            "mainClass": "字节.Main",
+            "projectName": "leetcode_105a311a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - forCharacter",
+            "request": "launch",
+            "mainClass": "forCharacter",
+            "projectName": "leetcode_105a311a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - forCharacter",
+            "request": "launch",
+            "mainClass": "多线程.forCharacter",
+            "projectName": "leetcode_105a311a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution",
+            "request": "launch",
+            "mainClass": "PDD.Solution",
+            "projectName": "leetcode_105a311a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
             "mainClass": "PDD.Main",
             "projectName": "leetcode_105a311a"
         },
